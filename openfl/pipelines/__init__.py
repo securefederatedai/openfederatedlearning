@@ -2,6 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 from importlib import util
 
+from openfl.pipelines.int4_pipeline import Int4BlockPipeline, Int4Pipeline, Int4Transformer
 from openfl.pipelines.kc_pipeline import KCPipeline
 from openfl.pipelines.no_compression_pipeline import NoCompressionPipeline
 from openfl.pipelines.random_shift_pipeline import RandomShiftPipeline
